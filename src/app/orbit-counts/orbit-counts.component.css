@@ -1,0 +1,16 @@
+.counts {
+    background: #34495E;
+    color: #fff;
+    border-radius: 5px;
+    border-style: double;
+    border-color: rgb(29, 245, 234);
+    width: 225px;
+}
+
+.counts div {
+    padding: 8px;
+}
+
+.counts span {
+    float: right;
+}
