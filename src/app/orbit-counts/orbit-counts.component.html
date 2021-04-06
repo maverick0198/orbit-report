@@ -1,6 +1,8 @@
 <h3>Satellite Counts:</h3>
 <div class="counts">
    <div>Total: <span>{{ satellites.length }}</span></div>
-   
+   <!-- Here is the ngFor loop the book requested that loops the array of different sat types. I 
+   decided to more simply leave "Totsl" as it's own div just displaying the length of the satellites
+array. -chris -->
    <div *ngFor="let satType of satTypes">{{ satType }}: <span>{{typeCount(satType)}}</span></div>
 </div>

@@ -10,6 +10,8 @@ import { Satellite } from '../satellite';
 
 export class OrbitCountsComponent implements OnInit {
   @Input() satellites: Satellite[];
+
+  // An array of satellite types to  be iterated over to make my counting table thing. -chris
   satTypes: string[] = ['Space Debris', 'Communication', 'Probe', 'Positioning', 'Space Station', 'Telescope'];
   constructor() { }
 
